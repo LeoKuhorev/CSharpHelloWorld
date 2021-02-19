@@ -4,7 +4,7 @@ using System.Dynamic;
 using System.Text;
 using System.Threading;
 
-namespace HelloWorld
+namespace HelloWorld.Basics
 {
     class Conditionals
     {

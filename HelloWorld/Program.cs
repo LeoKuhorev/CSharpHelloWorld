@@ -8,7 +8,7 @@ namespace HelloWorld
 {
     internal class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
 
             // Working with classes
@@ -20,43 +20,43 @@ namespace HelloWorld
             //var @sum = Calculator.Add(2, 4);
             //Console.WriteLine(@sum);
 
-            //Arrays.Demo();
+            //Basics.Arrays.Demo();
 
-            //Strings.Demo();
-            //Strings.ExerciseOne();
-            //Strings.ExerciseTwo();
-            //Strings.ExerciseThree();
-            //Strings.ExerciseFour();
-            //Strings.ExerciseFive();
+            //Basics.Strings.Demo();
+            //Basics.Strings.ExerciseOne();
+            //Basics.Strings.ExerciseTwo();
+            //Basics.Strings.ExerciseThree();
+            //Basics.Strings.ExerciseFour();
+            //Basics.Strings.ExerciseFive();
 
-            //Enums.Demo();
+            //Basics.Enums.Demo();
 
-            //Conditionals.Demo();
-            //Conditionals.ExerciseOne();
-            //Conditionals.ExerciseTwo();
-            //Conditionals.ExerciseThree();
-            //Conditionals.ExerciseFour();
-            //Conditionals.Loops();
+            //Basics.Conditionals.Demo();
+            //Basics.Conditionals.ExerciseOne();
+            //Basics.Conditionals.ExerciseTwo();
+            //Basics.Conditionals.ExerciseThree();
+            //Basics.Conditionals.ExerciseFour();
+            //Basics.Conditionals.Loops();
 
-            //Loops.ExerciseOne();
-            //Loops.ExerciseTwo();
-            //Loops.ExerciseThree();
-            //Loops.ExerciseFour();
-            //Loops.ExerciseFive();
+            //Basics.Loops.ExerciseOne();
+            //Basics.Loops.ExerciseTwo();
+            //Basics.Loops.ExerciseThree();
+            //Basics.Loops.ExerciseFour();
+            //Basics.Loops.ExerciseFive();
 
-            //Lists.Demo();
-            //Lists.ExerciseOne();
-            //Lists.ExerciseTwo();
-            //Lists.ExerciseThree();
-            //Lists.ExerciseFour();
-            //Lists.ExerciseFive();
-            //DatesAndTime.Demo();
+            //Basics.Lists.Demo();
+            //Basics.Lists.ExerciseOne();
+            //Basics.Lists.ExerciseTwo();
+            //Basics.Lists.ExerciseThree();
+            //Basics.Lists.ExerciseFour();
+            //Basics.Lists.ExerciseFive();
+            //Basics.DatesAndTime.Demo();
 
-            //IO.ExerciseOne();
-            //IO.ExerciseTwo();
+            //Basics.IO.ExerciseOne();
+            //Basics.IO.ExerciseTwo();
 
             // Bank Account Demo
-            Bank.Demo.BankDemo();
+            //Basics.Bank.Demo.BankDemo();
         }
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HelloWorld.Bank
+namespace HelloWorld.Basics.Bank
 {
     public class BankAccount
     {

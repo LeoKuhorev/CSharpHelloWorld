@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices.ComTypes;
 
-namespace HelloWorld
+namespace HelloWorld.Basics
 {
     public class Arrays
     {

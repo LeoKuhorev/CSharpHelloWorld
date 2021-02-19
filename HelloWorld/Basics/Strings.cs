@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace HelloWorld
+namespace HelloWorld.Basics
 {
     class Strings
     {

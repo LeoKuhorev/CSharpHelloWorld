@@ -5,7 +5,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Text;
 using System.Threading;
 
-namespace HelloWorld
+namespace HelloWorld.Basics
 {
     class Loops
     {

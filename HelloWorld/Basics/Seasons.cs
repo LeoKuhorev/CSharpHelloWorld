@@ -1,4 +1,4 @@
-﻿namespace HelloWorld
+﻿namespace HelloWorld.Basics
 {
     public enum Seasons
     {
