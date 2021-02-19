@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 
+
 namespace HelloWorld
 
 {
@@ -53,6 +54,9 @@ namespace HelloWorld
 
             //IO.ExerciseOne();
             //IO.ExerciseTwo();
+
+            // Bank Account Demo
+            Bank.Demo.BankDemo();
         }
     }
 }
