@@ -66,7 +66,8 @@ namespace HelloWorld
             //Intermediate.Properties.Properties.Demo();
             //Intermediate.Indexers.Indexers.Demo();
             //Intermediate.Exercises.Demo.StopwatchDemo();
-            Intermediate.Exercises.Demo.PostDemo();
+            //Intermediate.Exercises.Demo.PostDemo();
+            Intermediate.ConstructorsAndInheritance.ConstructorsAndInheritance.Demo();
 
         }
     }
