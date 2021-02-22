@@ -1,6 +1,7 @@
 ﻿using HelloWorld.Math;
 using System;
 using System.Collections.Generic;
+using System.Reflection;
 
 
 namespace HelloWorld
@@ -57,6 +58,15 @@ namespace HelloWorld
 
             // Bank Account Demo
             //Basics.Bank.Demo.BankDemo();
+
+            // Methods
+            //Intermediate.Methods.Program.Demo();
+            //Intermediate.Fields.Fields.Demo();
+            //Intermediate.AccessModifiers.Demo();
+            //Intermediate.Properties.Properties.Demo();
+            //Intermediate.Indexers.Indexers.Demo();
+            Intermediate.Exercises.Demo.StopwatchDemo();
+
         }
     }
 }
