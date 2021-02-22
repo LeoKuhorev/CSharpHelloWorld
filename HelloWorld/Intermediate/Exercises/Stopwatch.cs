@@ -8,7 +8,7 @@ namespace HelloWorld.Intermediate.Exercises
     {
         private DateTime TimeStarted { get; set; }
         private DateTime TimeStopped { get; set; }
-        private TimeSpan TotalDuration { get; set; } = TimeSpan.Zero;
+        private TimeSpan TotalDuration { get; set; }
         private bool IsStarted { get; set; }
 
         public TimeSpan Duration
@@ -30,7 +30,7 @@ namespace HelloWorld.Intermediate.Exercises
             }
             else
             {
-                throw new InvalidOperationException("Cannot start the watch that already has been started");
+                throw new InvalidOperationException("Cannot start the watch that has already been started");
             }
 
         }
