@@ -1,15 +1,9 @@
-﻿using HelloWorld.Math;
-using System;
-using System.Collections.Generic;
-using System.Reflection;
-
-
-namespace HelloWorld
+﻿namespace HelloWorld
 
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main()
         {
 
             // Working with classes
@@ -56,10 +50,8 @@ namespace HelloWorld
             //Basics.IO.ExerciseOne();
             //Basics.IO.ExerciseTwo();
 
-            // Bank Account Demo
             //Basics.Bank.Demo.BankDemo();
 
-            // Methods
             //Intermediate.Methods.Program.Demo();
             //Intermediate.Fields.Fields.Demo();
             //Intermediate.AccessModifiers.Demo();
@@ -67,7 +59,9 @@ namespace HelloWorld
             //Intermediate.Indexers.Indexers.Demo();
             //Intermediate.Exercises.Demo.StopwatchDemo();
             //Intermediate.Exercises.Demo.PostDemo();
-            Intermediate.ConstructorsAndInheritance.ConstructorsAndInheritance.Demo();
+            //Intermediate.ConstructorsAndInheritance.ConstructorsAndInheritance.Demo();
+
+            Prework.Exercises.SwitchCaseDemo();
 
         }
     }

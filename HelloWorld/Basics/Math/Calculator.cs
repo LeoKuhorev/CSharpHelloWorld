@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace HelloWorld.Math
+﻿namespace HelloWorld.Math
 {
     public class Calculator
     {

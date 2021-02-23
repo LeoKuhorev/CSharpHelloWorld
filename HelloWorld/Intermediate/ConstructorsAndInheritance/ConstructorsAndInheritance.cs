@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Text;
-
-namespace HelloWorld.Intermediate.ConstructorsAndInheritance
+﻿namespace HelloWorld.Intermediate.ConstructorsAndInheritance
 {
     class ConstructorsAndInheritance
     {

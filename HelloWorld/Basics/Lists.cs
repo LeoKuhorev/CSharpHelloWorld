@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace HelloWorld.Basics
 {
-    class Lists
+    internal class Lists
     {
         public static void Demo()
         {
@@ -76,15 +75,18 @@ namespace HelloWorld.Basics
         {
             Console.WriteLine("Please enter a name");
             var name = Console.ReadLine();
-            var nameArray = new char[name.Length];
+            if (name != null)
+            {
+                var nameArray = new char[name.Length];
 
-            for (var i = 0; i < name.Length; i++)
-                nameArray[i] = (char)name[i];
+                for (var i = 0; i < name.Length; i++)
+                    nameArray[i] = (char)name[i];
 
-            Array.Reverse(nameArray);
+                Array.Reverse(nameArray);
 
-            var output = string.Join("", nameArray);
-            Console.WriteLine(output);
+                var output = string.Join("", nameArray);
+                Console.WriteLine(output);
+            }
         }
 
         public static void ExerciseThree()
