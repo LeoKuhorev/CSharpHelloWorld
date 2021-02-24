@@ -52,7 +52,7 @@ namespace HelloWorld.Basics
         }
 
         public static void ExerciseOne()
-        {   
+        {
             Console.WriteLine("Please enter a number between 0 and 10");
             var userInput = Convert.ToInt32(Console.ReadLine());
             var random = new Random();
@@ -116,7 +116,7 @@ namespace HelloWorld.Basics
 
             for (var i = 0; i < length; i++)
             {
-                buffer[i] = (char) ('a' + random.Next(0, 26));
+                buffer[i] = (char)('a' + random.Next(0, 26));
             }
 
             var output = new string(buffer);

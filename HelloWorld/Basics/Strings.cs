@@ -10,8 +10,8 @@ namespace HelloWorld.Basics
         {
             Console.WriteLine("Strings demo");
 
-            var firstName = "John";
-            var lastName = "Dow";
+            const string firstName = "John";
+            const string lastName = "Dow";
             var fullName = string.Format("Hello, my name is {0} {1}", firstName, lastName);
             Console.WriteLine(fullName);
 
@@ -19,14 +19,14 @@ namespace HelloWorld.Basics
             var formattedNames = string.Join(", ", names);
             Console.WriteLine(formattedNames);
 
-            var regularMessage = "Hey John,\nwhen you get a chance take a look at this:\nc:\\directory\\file.exe";
+            const string regularMessage = "Hey John,\nwhen you get a chance take a look at this:\nc:\\directory\\file.exe";
             Console.WriteLine(regularMessage);
-            var verbatimMessage = @"Hey John,
+            const string verbatimMessage = @"Hey John,
 when you get a chance take a look at this:
 c:\directory\file.exe";
             Console.WriteLine(verbatimMessage);
 
-            var testName = "John Doe...";
+            const string testName = "John Doe...";
             var trimmedName = testName.Trim('.');
             Console.WriteLine($"Trimmed name is: '{trimmedName}'");
 

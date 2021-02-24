@@ -66,7 +66,7 @@ namespace HelloWorld.Basics
         {
             var path = @"d:\Leo\Coding\C#\HelloWorld\HelloWorld\Assets\exerciseOne.txt";
             SaveUserEntry(path);
-            
+
             var text = File.ReadAllText(path);
             Console.WriteLine($"You wrote {text.Split().Length} words");
         }
@@ -75,7 +75,7 @@ namespace HelloWorld.Basics
         {
             var path = @"d:\Leo\Coding\C#\HelloWorld\HelloWorld\Assets\exerciseTwo.txt";
             SaveUserEntry(path);
-            
+
             var text = File.ReadAllText(path);
             Console.WriteLine($"The longest word is {GetLongestWord(text.Split())}");
         }

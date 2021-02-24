@@ -18,7 +18,7 @@ namespace HelloWorld.Intermediate.Methods
                 var numberOne = int.Parse("abc"); //invalid string - raises exception
 
             }
-            catch (Exception )
+            catch (Exception)
             {
                 Console.WriteLine("Conversion one failed");
             }

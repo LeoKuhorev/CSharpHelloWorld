@@ -85,7 +85,7 @@ namespace CSharp1Exercises.ArraysAndLists
         public void Exercise4()
         {
             var numbers = new List<int>();
-            
+
             while (true)
             {
                 Console.Write("Enter a number (or 'Quit' to exit): ");
@@ -109,7 +109,7 @@ namespace CSharp1Exercises.ArraysAndLists
                 Console.WriteLine(number);
         }
 
-       
+
         /// <summary>
         /// Write a program and ask the user to supply a list of comma separated numbers (e.g 5, 1, 9, 2, 10). If the list is 
         /// empty or includes less than 5 numbers, display "Invalid List" and ask the user to re-try; otherwise, display 

@@ -14,14 +14,14 @@ namespace HelloWorld.Basics.Bank
             get
             {
                 decimal balance = 0;
-                foreach (var item in allTransactions)
+                foreach (var item in _allTransactions)
                     balance += item.Amount;
                 return balance;
             }
         }
 
         private static int accountNumberSeed = 1234567890;
-        private List<Transaction> allTransactions = new List<Transaction>();
+        private List<Transaction> _allTransactions = new List<Transaction>();
 
         public BankAccount(string name, decimal initialBalance)
         {
@@ -35,7 +35,7 @@ namespace HelloWorld.Basics.Bank
             if (amount <= 0)
                 throw new ArgumentOutOfRangeException(nameof(amount), "Amount of deposit must be positive!");
             var deposit = new Transaction(amount, date, note);
-            allTransactions.Add(deposit);
+            _allTransactions.Add(deposit);
         }
 
         public void MakeWithdrawal(decimal amount, DateTime date, string note)
@@ -45,7 +45,7 @@ namespace HelloWorld.Basics.Bank
             if (this.Balance - amount < 0)
                 throw new InvalidOperationException("Not sufficient funds for this withdrawal");
             var withdrawal = new Transaction(-amount, date, note);
-            allTransactions.Add(withdrawal);
+            _allTransactions.Add(withdrawal);
 
         }
 
@@ -53,13 +53,14 @@ namespace HelloWorld.Basics.Bank
         {
             var report = new StringBuilder();
             report.AppendLine("Date\t\tAmount\tNote");
-            foreach (var transaction in allTransactions)
+            foreach (var transaction in _allTransactions)
             {
                 //Rows
                 report.AppendLine($"{transaction.Date.ToShortDateString()}\t{transaction.Amount}\t{transaction.Notes}");
             }
-
             return report.ToString();
         }
     }
 }
+
+

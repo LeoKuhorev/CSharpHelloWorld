@@ -6,7 +6,7 @@ namespace HelloWorld.Intermediate.ConstructorsAndInheritance
     {
         public Car(string registrationNumber) : base(registrationNumber)
         {
-            Console.WriteLine($"Car number {registrationNumber} is being initialized");   
+            Console.WriteLine($"Car number {registrationNumber} is being initialized");
         }
     }
 }

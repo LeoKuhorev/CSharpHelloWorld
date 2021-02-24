@@ -5,7 +5,6 @@
     {
         private static void Main()
         {
-
             // Working with classes
             //var john = new Person();
             //john.SetFirstName("John");
@@ -57,11 +56,13 @@
             //Intermediate.AccessModifiers.Demo();
             //Intermediate.Properties.Properties.Demo();
             //Intermediate.Indexers.Indexers.Demo();
+            //Intermediate.ConstructorsAndInheritance.ConstructorsAndInheritance.Demo();
+            //Intermediate.Casting.Casting.Demo();
             //Intermediate.Exercises.Demo.StopwatchDemo();
             //Intermediate.Exercises.Demo.PostDemo();
-            //Intermediate.ConstructorsAndInheritance.ConstructorsAndInheritance.Demo();
+            Intermediate.Exercises.Demo.StackDemo();
 
-            Prework.Exercises.SwitchCaseDemo();
+            //Prework.Exercises.SwitchCaseDemo();
 
         }
     }

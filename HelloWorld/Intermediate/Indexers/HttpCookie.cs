@@ -16,8 +16,8 @@ namespace HelloWorld.Intermediate.Indexers
         // Indexer
         public string this[string key]
         {
-            get { return _dictionary[key];  }
-            set { _dictionary[key] = value;  }
+            get { return _dictionary[key]; }
+            set { _dictionary[key] = value; }
         }
     }
 }

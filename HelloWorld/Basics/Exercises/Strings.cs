@@ -17,7 +17,7 @@ namespace CSharp1Exercises
 
             var numbers = new List<int>();
             foreach (var number in input.Split('-'))
-                numbers.Add(Convert.ToInt32(number));                
+                numbers.Add(Convert.ToInt32(number));
 
             numbers.Sort();
 
@@ -91,7 +91,7 @@ namespace CSharp1Exercises
                 Console.WriteLine("Invalid Time");
                 return;
             }
-            
+
             try
             {
                 var hour = Convert.ToInt32(components[0]);
@@ -149,7 +149,7 @@ namespace CSharp1Exercises
             // Note the ToLower() here. This is used to count for both A and a. 
             var input = Console.ReadLine().ToLower();
 
-            var vowels = new List<char>(new char[] {'a', 'e', 'o', 'u', 'i'});
+            var vowels = new List<char>(new char[] { 'a', 'e', 'o', 'u', 'i' });
             var vowelsCount = 0;
             foreach (var character in input)
             {

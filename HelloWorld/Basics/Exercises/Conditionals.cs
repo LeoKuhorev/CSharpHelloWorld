@@ -69,7 +69,7 @@ namespace CSharp1Exercises.ControlFlow
         {
             Console.Write("What is the speed limit? ");
             var speedLimit = Convert.ToInt32(Console.ReadLine());
-            
+
             Console.Write("What is the speed of this car? ");
             var carSpeed = Convert.ToInt32(Console.ReadLine());
 
@@ -78,7 +78,7 @@ namespace CSharp1Exercises.ControlFlow
             else
             {
                 const int kmPerDemeritPoint = 5;
-                var demeritPoints = (carSpeed - speedLimit)/kmPerDemeritPoint;
+                var demeritPoints = (carSpeed - speedLimit) / kmPerDemeritPoint;
                 if (demeritPoints > 12)
                     Console.WriteLine("License Suspended");
                 else

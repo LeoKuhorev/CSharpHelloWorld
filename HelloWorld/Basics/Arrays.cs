@@ -20,9 +20,9 @@ namespace HelloWorld.Basics
             Console.WriteLine(booleans[2]);
             Console.WriteLine("-----------");
 
-            var names = new string[3] {"John", "Jake", "Mary"};
+            var names = new string[3] { "John", "Jake", "Mary" };
 
-            var newNumbers = new[] {2, 2, 1, 4, 5, 3, 8, 3};
+            var newNumbers = new[] { 2, 2, 1, 4, 5, 3, 8, 3 };
             foreach (var number in newNumbers)
             {
                 Console.Write(number);
@@ -70,7 +70,7 @@ namespace HelloWorld.Basics
                 Console.Write(number);
             }
 
-   
+
         }
     }
 }

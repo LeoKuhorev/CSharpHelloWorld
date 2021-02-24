@@ -29,7 +29,7 @@ namespace HelloWorld.Basics
             var methodName = "Express";
             var shippingMethod = (ShippingMethod)Enum.Parse(typeof(ShippingMethod), methodName);
             Console.WriteLine("Shipping Method: " + shippingMethod);
-            
+
 
             Console.WriteLine("-----------");
         }

@@ -15,7 +15,7 @@ namespace HelloWorld.Intermediate.Fields
         }
 
         public Customer(int id, string name)
-            :this(id) // Will call the constructor above
+            : this(id) // Will call the constructor above
         {
             Name = name;
         }

@@ -41,5 +41,24 @@ namespace HelloWorld.Intermediate.Exercises
             post.DownVote();
             Console.WriteLine("New rating is: " + post.Rating);
         }
+
+        public static void StackDemo()
+        {
+            try
+            {
+                var stack = new Stack();
+                stack.Push(1);
+                stack.Push(2);
+                stack.Push(3);
+                Console.WriteLine(stack.Pop());
+                Console.WriteLine(stack.Pop());
+                Console.WriteLine(stack.Pop());
+                
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("An error occurred running the method: " + e);
+            }
+        }
     }
 }
