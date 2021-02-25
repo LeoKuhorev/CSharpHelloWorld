@@ -60,7 +60,8 @@
             //Intermediate.Casting.Casting.Demo();
             //Intermediate.Exercises.Demo.StopwatchDemo();
             //Intermediate.Exercises.Demo.PostDemo();
-            Intermediate.Exercises.Demo.StackDemo();
+            //Intermediate.Exercises.Demo.StackDemo();
+            Intermediate.MethodOverriding.MethodOverriding.MethodOverridingDemo();
 
             //Prework.Exercises.SwitchCaseDemo();
 
