@@ -61,7 +61,8 @@
             //Intermediate.Exercises.Demo.StopwatchDemo();
             //Intermediate.Exercises.Demo.PostDemo();
             //Intermediate.Exercises.Demo.StackDemo();
-            Intermediate.MethodOverriding.MethodOverriding.MethodOverridingDemo();
+            //Intermediate.MethodOverriding.MethodOverriding.MethodOverridingDemo();
+            Intermediate.AbstractClasses.AbstractClasses.AbstractClassesDemo();
 
             //Prework.Exercises.SwitchCaseDemo();
 
