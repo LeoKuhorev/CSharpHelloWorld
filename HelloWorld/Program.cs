@@ -60,7 +60,8 @@
             //Intermediate.Casting.Casting.Demo();
             //Intermediate.MethodOverriding.MethodOverriding.MethodOverridingDemo();
             //Intermediate.AbstractClasses.AbstractClasses.AbstractClassesDemo();
-            Intermediate.Interfaces.Interfaces.Demo();
+            //Intermediate.Interfaces.Interfaces.Demo();
+            Intermediate.Polymorphism.Polymorphism.Demo();
 
             //Intermediate.Exercises.Demo.StopwatchDemo();
             //Intermediate.Exercises.Demo.PostDemo();
