@@ -60,5 +60,18 @@ namespace HelloWorld.Intermediate.Exercises
                 Console.WriteLine("An error occurred running the method: " + e);
             }
         }
+
+        public static void DbConnectionDemo()
+        {
+            var sqlConnection = new SqlConnection("This is an SQL connection string");
+            var oracleConnection = new OracleConnection("This is an Oracle connection string");
+
+            var sqlCommand = new DbCommand(sqlConnection, "SELECT * FROM table WHERE id=1");
+            var oracleCommand = new DbCommand(oracleConnection, "SELECT * FROM another_table WHERE id=2");
+
+            sqlCommand.Execute();
+            Console.WriteLine();
+            oracleCommand.Execute();
+        }
     }
 }

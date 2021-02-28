@@ -58,11 +58,15 @@
             //Intermediate.Indexers.Indexers.Demo();
             //Intermediate.ConstructorsAndInheritance.ConstructorsAndInheritance.Demo();
             //Intermediate.Casting.Casting.Demo();
+            //Intermediate.MethodOverriding.MethodOverriding.MethodOverridingDemo();
+            //Intermediate.AbstractClasses.AbstractClasses.AbstractClassesDemo();
+            Intermediate.Interfaces.Interfaces.Demo();
+
             //Intermediate.Exercises.Demo.StopwatchDemo();
             //Intermediate.Exercises.Demo.PostDemo();
             //Intermediate.Exercises.Demo.StackDemo();
-            //Intermediate.MethodOverriding.MethodOverriding.MethodOverridingDemo();
-            Intermediate.AbstractClasses.AbstractClasses.AbstractClassesDemo();
+            //Intermediate.Exercises.Demo.DbConnectionDemo();
+
 
             //Prework.Exercises.SwitchCaseDemo();
 
