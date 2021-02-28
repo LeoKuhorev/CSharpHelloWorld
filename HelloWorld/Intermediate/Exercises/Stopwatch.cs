@@ -4,46 +4,38 @@ namespace HelloWorld.Intermediate.Exercises
 {
     class Stopwatch
     {
-        private DateTime TimeStarted { get; set; }
-        private DateTime TimeStopped { get; set; }
-        private TimeSpan TotalDuration { get; set; }
-        private bool IsStarted { get; set; }
+        private DateTime _timeStarted;
+        private DateTime _timeStopped;
+        private TimeSpan _totalDuration;
+        private bool _isStarted;
 
         public TimeSpan Duration
         {
             get
             {
-                var currentDuration = TimeStopped - TimeStarted;
-                TotalDuration += currentDuration;
-                return TotalDuration;
+                var currentDuration = _timeStopped - _timeStarted;
+                _totalDuration += currentDuration;
+                return _totalDuration;
             }
         }
 
         public void Start()
         {
-            if (!IsStarted)
-            {
-                TimeStarted = DateTime.Now;
-                IsStarted = true;
-            }
-            else
-            {
+            if (_isStarted)
                 throw new InvalidOperationException("Cannot start the watch that has already been started");
-            }
 
+            _timeStarted = DateTime.Now;
+            _isStarted = true;
         }
 
         public void Stop()
         {
-            if (IsStarted)
-            {
-                TimeStopped = DateTime.Now;
-                IsStarted = false;
-            }
-            else
-            {
+            if (!_isStarted)
                 throw new InvalidOperationException("Cannot stop the watch that hasn't been started");
-            }
+
+            _timeStopped = DateTime.Now;
+            _isStarted = false;
+            
         }
     }
 }

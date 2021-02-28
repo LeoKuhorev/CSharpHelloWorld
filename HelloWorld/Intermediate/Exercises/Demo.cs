@@ -80,7 +80,7 @@ namespace HelloWorld.Intermediate.Exercises
             var workFlow = new WorkFlow();
             workFlow.AddActivity(new SendEmail());
             workFlow.AddActivity(new CheckEmail());
-
+            
             var workFlowEngine = new WorkFlowEngine();
             workFlowEngine.Run(workFlow);
 

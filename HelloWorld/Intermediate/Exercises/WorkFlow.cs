@@ -4,16 +4,21 @@ namespace HelloWorld.Intermediate.Exercises
 {
     public class WorkFlow
     {
-        public IList<IActivity> Activities { get; }
+        private readonly IList<IActivity> _activities;
 
         public WorkFlow()
         {
-            Activities= new List<IActivity>();
+            _activities = new List<IActivity>();
         }
 
         public void AddActivity(IActivity activity)
         {
-            Activities.Add(activity);
+            _activities.Add(activity);
+        }
+
+        public IEnumerable<IActivity> GetActivities()
+        {
+            return _activities;
         }
     }
 }
