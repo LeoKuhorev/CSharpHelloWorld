@@ -2,7 +2,7 @@
 
 namespace HelloWorld.Intermediate.Exercises
 {
-    public class DbCommand
+    class DbCommand
     {
         private readonly DbConnection _dbConnection;
         private readonly string _dbCommand;

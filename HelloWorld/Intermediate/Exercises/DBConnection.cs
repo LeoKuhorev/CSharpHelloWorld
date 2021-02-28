@@ -3,7 +3,7 @@ using System.ComponentModel;
 
 namespace HelloWorld.Intermediate.Exercises
 {
-    public abstract class DbConnection
+    abstract class DbConnection
     {
         public TimeSpan Timeout { get; set; }
         public string ConnectionString { get; set; }

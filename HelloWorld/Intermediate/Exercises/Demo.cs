@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Threading;
 
 namespace HelloWorld.Intermediate.Exercises
@@ -73,5 +74,18 @@ namespace HelloWorld.Intermediate.Exercises
             Console.WriteLine();
             oracleCommand.Execute();
         }
+
+        public static void WorkFlowEngineDemo()
+        {
+            var workFlow = new WorkFlow();
+            workFlow.AddActivity(new SendEmail());
+            workFlow.AddActivity(new CheckEmail());
+
+            var workFlowEngine = new WorkFlowEngine();
+            workFlowEngine.Run(workFlow);
+
+        }
+
+        
     }
 }

@@ -3,9 +3,9 @@ using System.IO;
 
 namespace HelloWorld.Intermediate.Exercises
 {
-    public class Stack
+    class Stack
     {
-        private readonly List<object> _stack = new List<object>(); 
+        private readonly List<object> _stack = new List<object>();
         public void Push(object obj)
         {
             if (obj is null)

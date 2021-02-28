@@ -2,7 +2,7 @@
 
 namespace HelloWorld.Intermediate.Exercises
 {
-    public class SqlConnection : DbConnection
+    class SqlConnection : DbConnection
     {
         public SqlConnection(string connectionString) : base(connectionString)
         {
