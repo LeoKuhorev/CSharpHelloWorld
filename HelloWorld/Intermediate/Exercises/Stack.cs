@@ -3,10 +3,10 @@ using System.IO;
 
 namespace HelloWorld.Intermediate.Exercises
 {
-    class Stack
+    class Stack<T>
     {
-        private readonly List<object> _stack = new List<object>();
-        public void Push(object obj)
+        private readonly List<T> _stack = new List<T>();
+        public void Push(T obj)
         {
             if (obj is null)
                 throw new IOException("The object cannot be null");

@@ -47,14 +47,19 @@ namespace HelloWorld.Intermediate.Exercises
         {
             try
             {
-                var stack = new Stack();
-                stack.Push(1);
-                stack.Push(2);
-                stack.Push(3);
-                Console.WriteLine(stack.Pop());
-                Console.WriteLine(stack.Pop());
-                Console.WriteLine(stack.Pop());
-                
+                var stack = new Stack<int>();
+                var random = new Random();
+                for (int i = 0; i < 10; i++)
+                {
+                    var number = random.Next(0, 20);
+                    Console.WriteLine($"{i}: {number}");
+                    stack.Push(number);
+                }
+
+                for (int i = 0; i <= 10; i++)
+                {
+                    Console.WriteLine($"{i}: {stack.Pop()}");
+                }
             }
             catch (Exception e)
             {

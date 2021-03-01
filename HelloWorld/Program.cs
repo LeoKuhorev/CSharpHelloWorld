@@ -65,9 +65,9 @@
 
             //Intermediate.Exercises.Demo.StopwatchDemo();
             //Intermediate.Exercises.Demo.PostDemo();
-            //Intermediate.Exercises.Demo.StackDemo();
+            Intermediate.Exercises.Demo.StackDemo();
             //Intermediate.Exercises.Demo.DbConnectionDemo();
-            Intermediate.Exercises.Demo.WorkFlowEngineDemo();
+            //Intermediate.Exercises.Demo.WorkFlowEngineDemo();
 
             //Prework.Exercises.SwitchCaseDemo();
 
